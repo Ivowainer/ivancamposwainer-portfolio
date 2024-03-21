@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BsFillFileEarmarkPersonFill } from "react-icons/bs";
 import { FaBullseye } from "react-icons/fa";
 
 const Header = () => {
@@ -17,7 +18,10 @@ const Header = () => {
                             <FaBullseye />
                         </div>
                     </div>
-
+                    <button className="flex items-center text-sm gap-3 bg-indigo-100 hover:bg-opacity-80 dark:bg-indigo-500 hover:dark:bg-opacity-90 text-indigo-500 dark:text-indigo-100 py-2 px-4 rounded-lg font-semibold">
+                        <BsFillFileEarmarkPersonFill />
+                        Resume
+                    </button>
                 </div>
             </div>
         </header>
