@@ -33,7 +33,7 @@ const Navbar = () => {
                     <div className={`${showEmoji ? "visible" : "invisible"} flex w-8 h-8`}>
                         <Image src="/logo.png" width={1920} height={1080} alt="Logo Ivan Campos Wainer Portfolio" />
                     </div>
-                    <p className={`${showEmoji ? "visible" : "invisible"}  text-gray-500 font-semibold`}>Ivan Campos Wainer</p>
+                    <p className={`${showEmoji ? "visible" : "invisible"}  text-gray-500 dark:text-white font-semibold`}>Ivan Campos Wainer</p>
                 </div>
 
                 <div className="py-4 px-2 sm:py-5 flex items-center gap-4 outline-none">
