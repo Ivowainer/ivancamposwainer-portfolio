@@ -25,7 +25,6 @@ export const EDUCATION: IEducation[] = [
         title: "Course NextJS",
         date: "2023",
         description: "Next.js: El framework de React para producción | del profesor Fernando Herrera en Udemy",
-        height: "h-32 lg:h-28",
     },
     {
         title: "Course ReactJS",
