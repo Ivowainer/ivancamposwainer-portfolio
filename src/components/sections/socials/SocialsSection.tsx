@@ -23,7 +23,7 @@ const SOCIALS: ISocial[] = [
         title: "Github",
         url: "https://github.com/Ivowainer",
         icon: <GithubIcon key="github" />,
-        color: "text-black/80"
+        color: "text-black/80 dark:text-white"
     }
 ]
 

@@ -5,10 +5,10 @@ import { project } from "../../../../constants";
 
 const CardMiniProject = ({ mini_project }: { mini_project: project.IMiniProject }) => {
     return (
-        <Link href={mini_project.url} target="_blank" className="block group border-2 border-gray-100 hover:border-gray-200 rounded-xl shadow_translate-transition hover:sm:shadow transition-all duration-200 sm:hover:-translate-y-1">
+        <Link href={mini_project.url} target="_blank" className="block group border-2 border-gray-100 hover:border-gray-200 dark:border-gray-700 dark:hover:border-gray-300/30 rounded-xl shadow_translate-transition hover:sm:shadow sm:hover:-translate-y-1">
             <div className="relative flex flex-col justify-between h-full w-full py-6 px-7">
-                <p className="text-gray-700 text-lg font-bold">{mini_project.title}</p>
-                <p className="text-slate-400 text-sm">{mini_project.description}</p>
+                <p className="text-gray-700 dark:text-gray-200 text-lg font-bold">{mini_project.title}</p>
+                <p className="text-slate-400 dark:text-slate-200 text-sm">{mini_project.description}</p>
                 <div className="flex gap-1 mt-1.5 items-center">
                     {mini_project.icons.map((val, i) => (
                         <div key={i} className="w-6">

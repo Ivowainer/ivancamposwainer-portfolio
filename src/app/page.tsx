@@ -6,7 +6,7 @@ import SocialsSection from "@/components/sections/socials/SocialsSection";
 
 export default function Home() {
     return (
-        <div className="mx-auto max-w-3xl px-5 mb-12 flex flex-col gap-10">
+        <main className="mx-auto max-w-3xl px-5 mb-12 flex flex-col gap-10">
             <Header />
             <hr className="border border-dotted border-gray-300 rounded-md" />
 
@@ -14,6 +14,6 @@ export default function Home() {
             <ProjectSection />
             <EducationSection />
             <SocialsSection />
-        </div>
+        </main>
     );
 }
