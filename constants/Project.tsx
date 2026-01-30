@@ -10,6 +10,9 @@ import SQLServerIcon from "@/components/general/icons/SQLServerIcon";
 import PythonIcon from "@/components/general/icons/PythonIcon";
 import CIcon from "@/components/general/icons/CIcon";
 import RacketIcon from "@/components/general/icons/RacketIcon";
+import ErlangIcon from "@/components/general/icons/ErlangIcon";
+import PostgreIcon from "@/components/general/icons/PostgreIcon";
+import EFIcon from "@/components/general/icons/EFIcon";
 
 export interface IProject {
     title: string;
@@ -76,6 +79,18 @@ export const MINI_PROJECTS: IMiniProject[] = [
         title: "University code (subjects)",
         description: "University Code for various subjects",
         url: "https://github.com/Ivowainer/facultad_progr",
-        icons: [<PythonIcon key="python" />, <CIcon key="c" />, <RacketIcon key="racket" />]
+        icons: [<PythonIcon key="python" />, <CIcon key="c" />, <RacketIcon key="racket" />, <ErlangIcon key="erlang" />]
+    },
+    {
+        title: "Ticket Manager",
+        description: "",
+        url: "https://github.com/Ivowainer/ticketmanager",
+        icons: [<CSharpIcon key="csharp" />, <PostgreIcon key="postgre" />, <EFIcon key="ef" />]
+    },
+    {
+        title: "TP Final - Data Structures",
+        description: "Final project for Data Structures and Algorithms I course. Implementation of complex algorithms and data structures to solve computational problems, demonstrating proficiency in algorithm design and analysis.",
+        url: "https://github.com/Ivowainer/TP_Final_Edya1",
+        icons: [<CIcon key="c" />]
     },
 ]

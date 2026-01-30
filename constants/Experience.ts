@@ -8,23 +8,40 @@ export interface IExperience {
 
 export const EXPERIENCE: IExperience[] = [
     {
-        name: "Frontend Project Freelance",
-        url: "https://www.clinicaselvaamazonica.com/",
-        date: "December 2022 - January 2023",
-        brand: "Clinica Selva Amazonica",
-        points: ["Development of responsive user interfaces for mobile devices and desktops", "Personalized content through CMS Sanity", "Teamwork and division of tasks; using git for coordination", "Development and integration of customized IT solution"],
+        name: "Full Stack Developer",
+        brand: "Fiduxion - Software Factory",
+        date: "Aug 2024 - Dec 2024",
+        points: [
+            "Development of productive web applications using Clean Architecture",
+            "Implementation of Repository Pattern, Service Layer and Singleton to decouple business logic and persistence",
+            "JoyaApp: platform for quoting and sharing professional budgets",
+            "Refactor legacy database architecture and migration",
+            "Optimization of REST APIs to support traffic peaks (+3k visits/day)",
+            "Implementation of traffic and conversion metrics",
+            "CountryProp: home sales platform",
+            "Work on authentication (JWT), session handling and critical bug fixes in production",
+            "Improved stability and user experience in login flows",
+            "Development of critical form application for a company, supporting +5,000 requests in 24hs",
+            "Collaborative teamwork using Git and agile methodologies",
+        ],
+    },
+    
+    {
+        name: "Frontend Developer (Freelance)",
+        brand: "Gysem Logística",
+        date: "Jan 2025",
+        points: ["Development of responsive and optimized frontend, working together with design", "Performance improvement and visual structure to strengthen the digital presence of the company"],
     },
     {
-        name: "Dashboard Fullstack Project Freelance",
-        date: "January 2024",
+        name: "Full Stack (Freelance)",
         brand: "Sancino Tour",
-        points: [
-            "CRUD for employee management, vouchers and history (resume)",
-            "Development of responsive user interfaces for mobile devices and desktops (frontend)",
-            "Charts and statistics of the created records (frontend)",
-            "Endpoints for data manipulation and persistence (backend)",
-            "Pagination, filtering and searching data in Mongodb (backend)",
-            "Session management and authentication with Nextauth and JWT (backend)",
-        ],
+        date: "Jan 2024 - Aug 2024",
+        points: ["Development of an internal management system using modular architecture", "Implementation of authentication with JWT, reports and statistics", "Efficient queries on MongoDB with pagination and filters", "Evolutionary maintenance and continuous improvements according to business needs"],
+    },
+    {
+        name: "Frontend (Freelance)",
+        brand: "Clinica Selva Amazonica",
+        date: "Dec 2022 - Apr 2023",
+        points: ["Development of responsive web interfaces integrated with CMS (Sanity)", "Continuous maintenance and improvement, adapting to changing requirements in a real customer environment"],
     },
 ];
